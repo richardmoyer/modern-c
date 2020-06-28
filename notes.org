@@ -4,18 +4,18 @@
 
 *Format Specifiers*
 String literal, begin with ~%~ serves as a format for the output
-'d' Decimal
-'i' Decimal, Octal or signed type
-'u' Decimal
-'o' Octal
-'x' Hexadecimal
-'aefg' Flosting point
-'%' '%' character
-'c' Characters
-'s' Non-whitespace "\f\n\r\t\v"
-'[' Scan set
-'p' Address
-'n' Character count
+-  'd' Decimal |
+- 'i' Decimal, Octal or signed type
+- 'u' Decimal
+- 'o' Octal
+- 'x' Hexadecimal
+- 'aefg' Flosting point
+- '%' '%' character
+- 'c' Characters
+- 's' Non-whitespace "\f\n\r\t\v"
+- '[' Scan set
+- 'p' Address
+- 'n' Character count
 
 #+BEGIN_SRC C
 #include <stdlib.h>
