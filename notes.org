@@ -1,5 +1,5 @@
 #+TITLE: Modern C
-#+PROPERTY :header-args :C :session *C* :exports results
+#+PROPERTY: :header-args :C :session *C* :exports results
 
 
 *Format Specifiers*
@@ -41,12 +41,6 @@ int main(void) {
 };
 #+END_SRC
 
-#+RESULTS:
-| element 0 is 9,     | its square is 81      |
-| element 1 is 2.9,   | its square is 8.41    |
-| element 2 is 0,     | its square is 0       |
-| element 3 is 7e-05, | its square is 4.9e-09 |
-| element 4 is 3e+25, | its square is 9e+50   |
 
 
 2 categories of aspects to consider in a c program:
