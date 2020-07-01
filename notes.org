@@ -62,3 +62,15 @@ int main(void) {
 - Identifiers
   "names" given to entities within the program. these nat refer to ~data objects~ ~types~ ~functions~ ~constants~. In getting_started.c ~main, A, i, printf, size_t~ are identifiers.
  - Functions ~main, printf~
+
+*Control*
+
+/Conditional Execution/
+
+The ~if~ keyword
+
+#+BEGIN_SRC C
+if (i > 25) { //controlling expression
+    j = i -25; //dependent block
+}
+#+END_SRC
