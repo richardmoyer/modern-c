@@ -1,5 +1,6 @@
 #+TITLE: Modern C
 #+PROPERTY: :header-args :C :session *C* :exports results
+#+OPTIONS: ^:{}
 
 
 *Format Specifiers*
@@ -92,6 +93,6 @@ The ~if~ keyword
 ~size_t~ cannot be 0, represents values in the range [0, ~SIZE_MAX~]
 
 ~SIZE_MAX~ should be one of
-- 2^16 -1 = 65535
-- 2^32 -1 = 4294967295
-- 2^64 -1 = 18446744073709551615
+- 2^{16} -1 = 65535
+- 2^{32} -1 = 4294967295
+- 2^{64} -1 = 18446744073709551615
