@@ -69,8 +69,29 @@ int main(void) {
 
 The ~if~ keyword
 
-#+BEGIN_SRC C
-if (i > 25) { //controlling expression
-    j = i -25; //dependent block
-}
-#+END_SRC
+*Scalar Types used in Modern C*
+|-------+-----------------+---------+-----------+---------------+---------------------|
+| level | name            | other   | category  | where         | printf              |
+|-------+-----------------+---------+-----------+---------------+---------------------|
+|     0 | ~size_t~        |         | unsigned  | ~<stddef.h>~  | "%zu" "%zx"         |
+|     0 | ~double~        |         | floating  | builtin       | "%e" "%f" "%g" "%a" |
+|     0 | ~signed~        | ~int~   | signed    | builtin       | "%d"                |
+|     0 | ~unsigne~       |         | unsigned  | builtin       | "%u" "%x"           |
+|     0 | ~bool~          | ~_Bool~ | unsigned  | ~<stdbool.h>~ | "%d" as 0 or 1      |
+|-------+-----------------+---------+-----------+---------------+---------------------|
+|     1 | ~prtdiff_t~     |         | signed    | ~<stddef.h>~  | "%td"               |
+|     1 | ~char const*~   |         | string    | builtin       | "%s"                |
+|     1 | ~char~          |         | character | builtin       | "%c"                |
+|     1 | ~void*~         |         | pointer   | builtin       | "%p"                |
+|-------+-----------------+---------+-----------+---------------+---------------------|
+|     2 | ~unsigned char~ |         | unsigned  | builtin       | "%hhu" "%02hhx"     |
+|-------+-----------------+---------+-----------+---------------+---------------------|
+
+
+** Expressing computations
+~size_t~ cannot be 0, represents values in the range [0, ~SIZE_MAX~]
+
+~SIZE_MAX~ should be one of
+- 2~16 -1 = 65535
+- 2~32 -1 = 4294967295
+- 2~64 -1 = 18446744073709551615
