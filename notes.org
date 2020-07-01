@@ -4,7 +4,7 @@
 
 *Format Specifiers*
 String literal, begin with ~%~ serves as a format for the output
--  'd' Decimal |
+- 'd' Decimal
 - 'i' Decimal, Octal or signed type
 - 'u' Decimal
 - 'o' Octal
@@ -50,7 +50,7 @@ int main(void) {
 
 
 
-2 categories of aspects to consider in a c program:
+2 categories of aspects to consider in a C program:
 1. Syntactical aspects - how do we specify the program so the compiler understands it
 2. Semantic aspects - what do we specify so that the program does what we want
 
