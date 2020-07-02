@@ -90,7 +90,7 @@ The ~if~ keyword
 
 
 ** Expressing computations
-~size_t~ cannot be 0, represents values in the range [0, ~SIZE_MAX~]
+~size_t~ cannot be 0, represents values in the range [0, ~SIZE_MAX~ ]
 
 ~SIZE_MAX~ should be one of
 - 2^{16} -1 = 65535
