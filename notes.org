@@ -99,13 +99,23 @@ The ~if~ keyword
 
 ** Rules
 *0.1.1.1* C is an imperative programming language
+
 *0.1.2.1* C is a compiled programming language
+
 *0.1.2.2* A C program is portable between different platforms
+
 *0.1.2.3* A C program should compile cleanly without warnings
+
 *0.2.1.1* Punctuation characters can be used with several different meanings
+
 *0.2.2.1* All identifiers of a program have to be declared
+
 *0.2.2.2* Identifiers may have several consistent declarations
+
 *0.2.2.3* Declarations are bound to the scope in which they appear
+
 *0.2.3.1* Declarations specify identifiers whereas definitions specify objects
+
 *0.2.3.2* An object is defined at the same time as it is initialized
+
 *0.2.3.3* Missing elements in initializers default to 0
